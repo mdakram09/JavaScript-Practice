@@ -17,3 +17,9 @@ console.log(msg[5])
 console.log(msg.toUpperCase())
 
 console.log(msg)
+
+console.log(`My full name is ${firstName} ${lastName}`);
+
+console.log(Math.random()*10)
+
+console.log(Math.pow(2,3))
