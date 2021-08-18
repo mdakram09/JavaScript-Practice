@@ -41,3 +41,18 @@ console.log(students)
 students.reverse()
 
 console.log(students)
+
+var person={
+	name : 'Md Akram Khan',
+	subject : 'CSE',
+	'address' : 'Kolkata',
+}
+
+console.log(person)
+console.table(person)
+
+console.log(person.name)
+console.log(person['name'])
+
+console.log(person['address'])
+console.log(person.address)
