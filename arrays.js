@@ -107,3 +107,6 @@ var person3={
 }
 
 console.log(person3)
+
+console.log(person3.obj)
+console.log(person3.obj.fathersName)
