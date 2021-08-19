@@ -56,3 +56,40 @@ console.log(person['name'])
 
 console.log(person['address'])
 console.log(person.address)
+
+// objects inside arrays
+
+var sarr=[
+
+{
+	name : 'Md Akram Khan',
+	subject : 'CSE',
+	'address' : 'Kolkata',
+},
+{
+	name : 'Md Akram Khan',
+	subject : 'CSE',
+	'address' : 'Kolkata',
+},
+{
+	name : 'Md Akram Khan',
+	subject : 'CSE',
+	'address' : 'Kolkata',
+}
+
+]
+
+console.log(sarr)
+console.log(sarr[0].name)
+
+// array inside an object
+
+var person2={
+	name : 'Md Akram Khan',
+	subject : 'CSE',
+	address : 'Kolkata',
+	marks: [71,71,72,72,60,90,80]
+}
+
+console.log(person2.marks)
+console.log(person2.marks[3])
