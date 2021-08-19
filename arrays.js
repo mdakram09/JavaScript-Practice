@@ -93,3 +93,17 @@ var person2={
 
 console.log(person2.marks)
 console.log(person2.marks[3])
+
+// object inside a object
+
+var person3={
+	name : 'Md Akram Khan',
+	subject : 'CSE',
+	'address' : 'Kolkata',
+	obj: {
+		fathersName : 'Md Aslam Khan',
+		mothersName:'Ammy'
+	}
+}
+
+console.log(person3)
