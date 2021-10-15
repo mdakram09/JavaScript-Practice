@@ -24,3 +24,15 @@ marks.reverse()
 
 console.log(marks)
 console.log(fruits)
+
+
+let marks1=[57,76,87,45,67];
+let marks2=[56,45,78,97,67]
+let marks3=marks1.concat(marks2)
+console.log(marks3)
+
+console.log(marks.indexOf(84))
+console.log(marks[2])
+
+console.log(Array.isArray('marks'))
+console.log(typeof marks)
