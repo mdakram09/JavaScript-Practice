@@ -1,37 +1,37 @@
-// const myArr=[]
+const myArr=[]
 
-// for(let i=0; i<5; i++)
-// {
-//     const temp=window.prompt('Please enter Array elements')
-//     myArr.push(temp)
-// }
+for(let i=0; i<5; i++)
+{
+    const temp=window.prompt('Please enter Array elements')
+    myArr.push(temp)
+}
 
-// var max=myArr[0]
+var max=myArr[0]
 
-// myArr.forEach(
-//     function(n)
-//     {
-//         if(myArr[n]>max)
-//         {
-//             max=myArr[n]
-//         }
+myArr.forEach(
+    function(n)
+    {
+        if(myArr[n]>max)
+        {
+            max=myArr[n]
+        }
        
-//     }
-// )
+    }
+)
 
-// console.log(`${max} is the greatest`)
-// console.log(myArr)
+console.log(`${max} is the greatest`)
+console.log(myArr)
 
-// const text=['hello','great','smash', 'ironman']
+const text=['hello','great','smash', 'ironman']
 
-// const cap=text.map(
-//     function(t){
-//         return t.toUpperCase();
-//     }
-// )
+const cap=text.map(
+    function(t){
+        return t.toUpperCase();
+    }
+)
 
-// console.log(cap)
-// console.log(text)
+console.log(cap)
+console.log(text)
 
 
 const movies=['Iron Man', 'Thor', 'Captain America', 'Spider Man']
@@ -59,3 +59,21 @@ const odd=nums.filter(
     }
 )
 console.log(odd)
+
+
+const nums=[2,4,6,9,2,1,0,5,6,7]
+const num=nums.filter(
+    (n)=>{
+
+        setTimeout(()=>{
+            try{
+                return nums2.length
+             }catch(e){
+                 console.log('Nothing here')
+             }
+        },3000)
+        
+    }
+)
+
+console.log(num)
